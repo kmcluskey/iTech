@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+{% load staticfiles %} 
+<html>
+
+    <head>
+        <title>This is the about Rango page</title>
+        <link rel="stylesheet" href="{% static "css/gym_style.css" %}" /> <!-- CSS -->
+    </head>
+
+    <body>
+        <h1>Rango thinks this is about...</h1>
+        Deciding how this all works! <strong>{{ boldmessage2 }}</strong><br />
+        <a href="/rango/">Take me Home</a><br />
+        <img src="{% static "images/mca2.png" %}" alt="Picture of a pretty cool enzyme" />
+
+    </body>
+
+</html>
